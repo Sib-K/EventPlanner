@@ -1,0 +1,83 @@
+.event-form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .form-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #1f2937;
+  }
+  
+  .event-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .event-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    color: #374151;
+  }
+  
+  .event-form input,
+  .event-form select {
+    margin-top: 8px;
+    padding: 10px 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    background-color: #f9fafb;
+    transition: border 0.2s ease;
+  }
+  
+  .event-form input:focus,
+  .event-form select:focus {
+    outline: none;
+    border-color: #3b82f6;
+    background-color: #fff;
+  }
+  
+  .submit-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #3b82f6;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2563eb;
+  }
+
+  .cancel-btn {
+    margin-left: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #ad2628;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #87181a;
+  }
+  
+  

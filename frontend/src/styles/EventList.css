@@ -1,0 +1,125 @@
+.event-list-container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .event-list-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .event-grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+  
+  .event-card {
+    background: #ffffffcc;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    transition: 0.3s ease all;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .event-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 1rem;
+  }
+  
+  .event-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #111827;
+  }
+  
+  .event-dates {
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+    color: #6b7280;
+  }
+  
+  .event-badge {
+    margin-top: 0.75rem;
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+    text-transform: uppercase;
+  }
+  
+  .badge-blue {
+    background: #dbeafe;
+    color: #1e40af;
+  }
+  
+  .badge-green {
+    background: #dcfce7;
+    color: #065f46;
+  }
+  
+  .badge-orange {
+    background: #ffedd5;
+    color: #c2410c;
+  }
+  
+  .badge-purple {
+    background: #ede9fe;
+    color: #5b21b6;
+  }
+  
+  .badge-default {
+    background: #e5e7eb;
+    color: #374151;
+  }
+  
+  .event-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-end;
+  }
+  
+  .event-btn {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .event-btn.edit {
+    color: #3b82f6;
+  }
+  
+  .event-btn.edit:hover {
+    color: #1d4ed8;
+  }
+  
+  .event-btn.delete {
+    color: #ef4444;
+  }
+  
+  .event-btn.delete:hover {
+    color: #b91c1c;
+  }
+  
+  .event-empty {
+    margin-top: 5rem;
+    text-align: center;
+    font-style: italic;
+    color: #9ca3af;
+  }
+  
